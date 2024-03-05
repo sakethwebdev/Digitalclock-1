@@ -20,8 +20,9 @@ function getTime(){
 
     var timezone = function(h){
 
-        if(h<12)
+        if(h<12){
             return "AM"
+        }
         else
         return "PM"
 
